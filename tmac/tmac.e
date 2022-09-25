@@ -994,5 +994,23 @@
 .so \\*(||/chars.me
 .rm sc
 ..
+.de ]-
+.[-
+..
+.de [-
+.rn [- @U
+.so \\*(||/refer.me
+.[-
+.rm @U
+..
+.de ]<
+.[<
+..
+.de [<
+.rn [< @U
+.so \\*(||/refer.me
+.[<
+.rm @U
+..
 .ll 6.0i
 .lt 6.0i
